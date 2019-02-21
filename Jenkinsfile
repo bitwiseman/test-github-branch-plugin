@@ -1,9 +1,10 @@
 pipeline {
   agent none
   stages {
-    stage("Build") {
+    stage('Build') {
       steps {
-        echo "Hello 0"
+        echo 'Hello 0'
+        echo 'Hello 1'
       }
     }
   }
