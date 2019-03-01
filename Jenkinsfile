@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'BUILD_ID: ${env.BUILD_ID}'
-        echo 'GIT_COMMIT: ${env.GIT_COMMIT}'
-        echo 'GIT_PREVIOUS_COMMIT: ${env.GIT_PREVIOUS_COMMIT}'
+        echo 'BUILD_ID: ${BUILD_ID}'
+        echo 'GIT_COMMIT: ${GIT_COMMIT}'
+        echo 'GIT_PREVIOUS_COMMIT: ${GIT_PREVIOUS_COMMIT}'
         echo 'Hello 0d'
         echo 'Hello 1'
         echo 'Hello 2'
