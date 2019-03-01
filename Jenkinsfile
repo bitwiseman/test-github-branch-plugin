@@ -4,11 +4,9 @@ pipeline {
     stage('Build') {
       steps {
         echo 'GIT_COMMIT: ${env.GIT_COMMIT}'
-        echo 'GIT_PREVIOUS_COMMIT: ${env.GIT_PREVIOUS_COMMIT}'
         echo 'Hello 0d'
         echo 'Hello 1'
       }
-
     }
   }
 }
