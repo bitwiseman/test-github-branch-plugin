@@ -8,6 +8,7 @@ pipeline {
         echo 'Hello 0d'
         echo 'Hello 1'
       }
+
     }
   }
 }
