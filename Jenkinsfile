@@ -3,7 +3,6 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'env'
         echo 'BUILD_ID: ${BUILD_ID}'
         echo 'GIT_COMMIT: ${GIT_COMMIT}'
         echo 'GIT_PREVIOUS_COMMIT: ${GIT_PREVIOUS_COMMIT}'
