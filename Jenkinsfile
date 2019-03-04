@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'GIT_COMMIT: ${env.GIT_COMMIT}'
+        echo 'GIT_COMMIT: ${env}'
         echo 'Hello 0d'
         echo 'Hello 1'
       }
