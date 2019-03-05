@@ -9,13 +9,13 @@ pipeline {
         echo 'Hello 0d'
         echo 'Hello 1'
         echo 'Hello 2'
-        echo 'Hello 4'
         echo 'Hello 5'
       }
     }
     stage('test') {
       steps {
         echo 'Hello 1'
+        sleep (30)
       }
     }
   }
