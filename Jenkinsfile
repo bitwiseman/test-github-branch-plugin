@@ -14,8 +14,11 @@ pipeline {
     }
     stage('test') {
       steps {
-        echo 'Hello 1'
-        sleep (30)
+          script {
+            a = readTrusted ('Jenkinsfile')
+            echo  a
+            sleep (30)
+          }
       }
     }
   }
