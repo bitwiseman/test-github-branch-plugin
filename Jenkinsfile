@@ -10,6 +10,7 @@ pipeline {
         echo 'Hello 3'
         echo 'Hello 5'
         echo 'Hello 6'
+        echo 'Hello 7'
       }
     }
     stage('test') {
