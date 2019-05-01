@@ -15,6 +15,7 @@ pipeline {
     stage('test') {
       steps {
           script {
+
             a = readTrusted ('Jenkinsfile')
             echo  a
             echo  a
