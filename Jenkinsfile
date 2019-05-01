@@ -17,6 +17,7 @@ pipeline {
           script {
             a = readTrusted ('Jenkinsfile')
             echo  a
+            echo  a
             sleep (30)
           }
       }
