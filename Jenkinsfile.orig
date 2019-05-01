@@ -8,6 +8,9 @@ pipeline {
         echo 'Hello 0'
         echo 'Hello 1'
         echo 'Hello 2'
+<<<<<<< HEAD
+        echo 'Hello 3'
+=======
         echo 'Hello 5'
         echo 'Hello 6'
       }
@@ -19,6 +22,7 @@ pipeline {
             echo  a
             sleep (30)
           }
+>>>>>>> origin/master
       }
     }
   }
