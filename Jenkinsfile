@@ -15,11 +15,7 @@ pipeline {
     stage('test') {
       steps {
           script {
-
-            a = readTrusted ('Jenkinsfile')
-            echo  a
-            echo  a
-            sleep (30)
+             sleep (30)
           }
       }
     }
