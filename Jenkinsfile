@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'GIT_COMMIT: ${GIT_COMMIT}'
+        echo 'GIT READY!'
         echo 'GIT_COMMIT: ${GIT_COMMIT}'
         echo 'GIT_PREVIOUS_COMMIT: ${GIT_PREVIOUS_COMMIT}'
         echo 'Hello 0'
